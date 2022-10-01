@@ -1,0 +1,16 @@
+Game where cat comes in every 10 seconds to fuck up your tasks and you gotta time the more time-consuming tasks so the cat won't interrupt you
+
+Overcooked + red light green light
+
+Swipe, click and hold, spam clicks to gather ingredients
+click and spin to cook
+
+Characters:
+  witch - surprised, cooking, gathering
+  cat - attacking, stalking, bell warning
+Ingredients:
+  newt, root, frog
+Background:
+  cauldron phase, ingredients phase
+Title:
+  Paranoid witch with cat stalking in background
