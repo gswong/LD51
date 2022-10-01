@@ -1,6 +1,6 @@
 Game where cat comes in every 10 seconds to fuck up your tasks and you gotta time the more time-consuming tasks so the cat won't interrupt you
 
-Overcooked + red light green light
+Overcooked + cooking mama + red light green light
 
 Swipe, click and hold, spam clicks to gather ingredients
 click and spin to cook
@@ -14,3 +14,5 @@ Background:
   cauldron phase, ingredients phase
 Title:
   Paranoid witch with cat stalking in background
+Music:
+  Spooky, stalking tension, mischief
