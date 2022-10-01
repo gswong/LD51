@@ -47,6 +47,7 @@ public class ClickAndSwipeAction : MonoBehaviour
         {
             // Increment resource
             Debug.Log("Player gathered root");
+            ResourceManager.Instance.IncreaseRoot();
         }
 
         GatherThresholdReached = false;

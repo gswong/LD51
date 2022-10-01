@@ -23,22 +23,22 @@ public class ResourceManager : Singleton<ResourceManager>
         Interlocked.Exchange(ref ResourceRootValue, 0);
     }
 
-    void IncreaseEye()
+    public void IncreaseEye()
     {
         Interlocked.Increment(ref ResourceEyeValue);
     }
 
-    void IncreaseMushroom()
+    public void IncreaseMushroom()
     {
         Interlocked.Increment(ref ResourceMushroomValue);
     }
     
-    void IncreaseRoot()
+    public void IncreaseRoot()
     {
         Interlocked.Increment(ref ResourceRootValue);
     }
 
-    void DecreaseEye()
+    public void DecreaseEye()
     {
         if(ResourceEyeValue > 0)
         {
@@ -46,7 +46,7 @@ public class ResourceManager : Singleton<ResourceManager>
         }
     }
 
-    void DecreaseMushroom()
+    public void DecreaseMushroom()
     {
         if(ResourceMushroomValue > 0)
         {
@@ -54,7 +54,7 @@ public class ResourceManager : Singleton<ResourceManager>
         }
     }
     
-    void DecreaseRoot()
+    public void DecreaseRoot()
     {
         if(ResourceRootValue > 0)
         {
@@ -62,7 +62,7 @@ public class ResourceManager : Singleton<ResourceManager>
         }
     }
 
-    void DecreaseRandomResource()
+    public void DecreaseRandomResource()
     {
         var v = Enum.GetValues(typeof(ResourceType));
         var resource = v.GetValue(UnityEngine.Random.Range(0, v.Length));
