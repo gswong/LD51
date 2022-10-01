@@ -16,3 +16,41 @@ Title:
   Paranoid witch with cat stalking in background
 Music:
   Spooky, stalking tension, mischief
+
+---
+
+Game play strategy:
+
+AI action
+|-----threat-----|-----passive-----|
+
+player should respond with
+|-----cook-------|-----gather------|
+expends resources| gains resources
+
+Cooking phase:
+
+Play the minigame correctly for 10s. Spin in the correct direction to cook. Counterspin at the right timing to deflect cat sabotage. Player will convert 100% of resources to points if done optimally. Cat will sabotage randomly at 5-9 seconds of cooking corresponding to 50-90% of resources converted to points. Warning animation and sound will play before attack. 9 second attack window should have shortest warning and window to counter. Worst case scenario, player does nothing and converts zero points while cat will swipe all resources after 5-9 seconds.
+
+Gather phase: 
+
+Player has choice between 3 resources that require different click actions: click and swipe, click and hold, rapid-click
+Within 10s player must optimize gathering between 3 resources.
+Randomly have one HQ item out of 3 that yields more resources.
+Player must decide if it is worth going for HQ item if you are low on a different resource. Threat of cat and greediness for HQ items will cause tension.
+If player is too greedy for a resource, cat will swipe all resources of type being gathered. If player idles at gather screen randomly swipe a resource. Cooldown for swiping items... 5 seconds. Worst case scenario: in 10 seconds, cat swipes you 3 times. (0, 5, 10 second mark of cat attack window)
+
+Optimal scoring consists of:
+
+Perfect timing of transitioning between threat and passive phases
+Perfect counter all cooking sabotage attempts (highest resource to point conversion)
+Always gather HQ resource when available (highest resource gather rate)
+
+---
+
+Extra animation and effects:
+
+Click and hold cauldron transitions to cooking scene. Try lerp + zoom/fade.
+Release cauldron click and default to resource gathering scene. Clicking resource stays on gather scene.
+Add red lighting effect to cat eyes.
+Add screen effects indicating player is in wrong position if cat is attacking and player is still in gathering room.
