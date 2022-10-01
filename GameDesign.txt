@@ -16,3 +16,26 @@ Title:
   Paranoid witch with cat stalking in background
 Music:
   Spooky, stalking tension, mischief
+
+---
+
+Game play strategy:
+
+AI action
+|-----threat-----|-----passive-----|
+
+player should respond with
+|-----cook-------|-----gather------|
+expends resources| gains resources
+
+Cooking phase:
+
+Play the minigame correctly for 10s. Spin in the correct direction to cook. Counterspin at the right timing to deflect cat sabotage.
+
+Gather phase: 
+
+Player has choice between 3 resources that require different click actions: click and swipe, click and hold, rapid-click
+Within 10s player must optimize gathering between 3 resources.
+Randomly have one HQ item out of 3 that yields more resources.
+Player must decide if it is worth going for HQ item if you are low on a different resource. Threat of cat and greediness for HQ items will cause tension.
+If player is too greedy, cat will swipe all resources of type being gathered.
