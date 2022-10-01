@@ -46,6 +46,11 @@ Perfect timing of transitioning between threat and passive phases
 Perfect counter all cooking sabotage attempts (highest resource to point conversion)
 Always gather HQ resource when available (highest resource gather rate)
 
+Non-optimal but still viable:
+
+Time cat swipes on a near zero resource. Keep gathering HQ resource during attack cooldown.
+If too resource heavy can prioritize cooking even in passive phase.
+
 ---
 
 Extra animation and effects:
