@@ -220,23 +220,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1881578471409593857, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
       propertyPath: m_LocalScale.x
-      value: 12.8926
+      value: 1.5728972
       objectReference: {fileID: 0}
     - target: {fileID: 1881578471409593857, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
       propertyPath: m_LocalScale.y
-      value: 12.8926
+      value: 1.5728972
       objectReference: {fileID: 0}
     - target: {fileID: 1881578471409593857, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
       propertyPath: m_LocalScale.z
-      value: 12.8926
+      value: 1.5728972
       objectReference: {fileID: 0}
     - target: {fileID: 1881578471409593857, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1893
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1881578471409593857, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1893
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1881578471409593857, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
       propertyPath: m_LocalPosition.z
@@ -270,9 +270,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3202088137741332462, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 17b132997343af24f8c96598af534094, type: 3}
     - target: {fileID: 4128970963726358088, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
       propertyPath: m_Name
       value: Cauldron
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917773094058952633, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
+      propertyPath: m_Radius
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aa2ee47756e433439b27990bcecbeea, type: 3}
