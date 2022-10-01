@@ -32,7 +32,7 @@ expends resources| gains resources
 
 Cooking phase:
 
-Play the minigame correctly for 10s. Spin in the correct direction to cook. Counterspin at the right timing to deflect cat sabotage. Player will convert 100% of resources to points if done optimally. Cat will sabotage randomly at 5-9 seconds of cooking corresponding to 50-90% of resources converted to points. Warning animation and sound will play before attack. 9 second attack window should have shortest warning and window to counter. Worst case scenario, player does nothing and converts zero points while cat will swipe all resources after 5-9 seconds.
+Play the minigame correctly for 10s. Spin in the correct direction to cook. Counterspin at the right timing to deflect cat sabotage. Player will convert 100% of resources to points if done optimally. Cat will sabotage randomly at 5-9 seconds of cooking corresponding to 50-90% of resources converted to points. Warning animation and sound will play before attack. 9 second attack window should have shortest warning and window to counter. Worst case scenario, player does nothing and converts zero points while cat will swipe all resources after 5-9 seconds. Countering cat will get pilfered resources back.
 
 Gather phase: 
 
@@ -40,7 +40,7 @@ Player has choice between 3 resources that require different click actions: clic
 Within 10s player must optimize gathering between 3 resources.
 Randomly have one HQ item out of 3 that yields more resources.
 Player must decide if it is worth going for HQ item if you are low on a different resource. Threat of cat and greediness for HQ items will cause tension.
-If player is too greedy for a resource, cat will swipe all resources of type being gathered. If player idles at gather screen randomly swipe a resource. Cooldown for swiping items... 5 seconds. Worst case scenario: in 10 seconds, cat swipes you 3 times. (0, 5, 10 second mark of cat attack window)
+If player is too greedy for a resource, cat will swipe percentage of resources of type being gathered. If player idles at gather screen randomly swipe a resource. Cooldown for swiping items... 5 seconds. Worst case scenario: in 10 seconds, cat swipes you 3 times. (0, 5, 10 second mark of cat attack window)
 
 Optimal scoring consists of:
 
@@ -52,6 +52,7 @@ Non-optimal but still viable:
 
 Time cat swipes on a near zero resource. Keep gathering HQ resource during attack cooldown.
 If too resource heavy can prioritize cooking even in passive phase.
+If not enough resources to cook, might as well just gather anyway.
 
 ---
 
