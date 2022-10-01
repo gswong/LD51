@@ -30,7 +30,7 @@ expends resources| gains resources
 
 Cooking phase:
 
-Play the minigame correctly for 10s. Spin in the correct direction to cook. Counterspin at the right timing to deflect cat sabotage. Player will convert 100% of resources to points if done optimally. Cat will sabotage randomly at 5-9 seconds of cooking corresponding to 50-90% of resources converted to points. Warning animation and sound will play before attack. 9 second attack window should have shortest warning and window to counter.
+Play the minigame correctly for 10s. Spin in the correct direction to cook. Counterspin at the right timing to deflect cat sabotage. Player will convert 100% of resources to points if done optimally. Cat will sabotage randomly at 5-9 seconds of cooking corresponding to 50-90% of resources converted to points. Warning animation and sound will play before attack. 9 second attack window should have shortest warning and window to counter. Worst case scenario, player does nothing and converts zero points while cat will swipe all resources after 5-9 seconds.
 
 Gather phase: 
 
@@ -48,8 +48,9 @@ Always gather HQ resource when available (highest resource gather rate)
 
 ---
 
-Smooth scene transitions:
+Extra animation and effects:
 
-Click and hold cauldron transitions to cooking scene.
-
+Click and hold cauldron transitions to cooking scene. Try lerp + zoom/fade.
 Release cauldron click and default to resource gathering scene. Clicking resource stays on gather scene.
+Add red lighting effect to cat eyes.
+Add screen effects indicating player is in wrong position if cat is attacking and player is still in gathering room.
