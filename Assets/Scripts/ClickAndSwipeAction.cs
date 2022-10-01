@@ -5,16 +5,16 @@ using UnityEngine;
 public class ClickAndSwipeAction : MonoBehaviour
 {
 
-    public Vector3 _mouseReference;
-    public Vector3 _mouseOffset;
-    public float _gatherThreshold;
-    public bool _gatherThresholdReached;
+    public Vector3 MouseReference;
+    public Vector3 MouseOffset;
+    public float GatherThreshold;
+    public bool GatherThresholdReached;
 
     // Start is called before the first frame update
     void Start()
     {
-        _gatherThreshold = 50F;
-        _gatherThresholdReached = false;
+        GatherThreshold = 50F;
+        GatherThresholdReached = false;
     }
 
     // Update is called once per frame
@@ -26,29 +26,29 @@ public class ClickAndSwipeAction : MonoBehaviour
     void OnMouseDown()
     {
         // store mouse
-        _mouseReference = Input.mousePosition;
+        MouseReference = Input.mousePosition;
     }
 
     void OnMouseDrag()
     {
         Debug.Log("Player is swiping root");
         // Detect pos > threshold from initial pos to set collection flag true 
-        if (Vector3.Distance(Input.mousePosition, _mouseReference) >= _gatherThreshold)
+        if (Vector3.Distance(Input.mousePosition, MouseReference) >= GatherThreshold)
         {
             Debug.Log("Player swiped root beyond threshold");
-            _gatherThresholdReached = true;
+            GatherThresholdReached = true;
         }
     }
 
     void OnMouseUp()
     {
         Debug.Log("Player released root");
-        if (_gatherThresholdReached)
+        if (GatherThresholdReached)
         {
             // Increment resource
             Debug.Log("Player gathered root");
         }
 
-        _gatherThresholdReached = false;
+        GatherThresholdReached = false;
     }
 }

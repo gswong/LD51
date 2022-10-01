@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class ClickAndSpinAction : MonoBehaviour
 {
-    private float _sensitivity;
-    public Vector3 _mouseReference;
-    public Vector3 _mouseOffset;
-    public Vector3 _objectPos;
-    private Vector3 _rotation;
+    public float Sensitivity;
+    public Vector3 MouseReference;
+    public Vector3 MouseOffset;
+    public Vector3 ObjectPos;
+    public Vector3 Rotation;
 
     // Start is called before the first frame update
     void Start()
     {
-        _sensitivity = 0.4f;
-        _rotation = Vector3.zero; 
+        Sensitivity = 0.4f;
+        Rotation = Vector3.zero; 
     }
 
     // Update is called once per frame
@@ -27,7 +27,7 @@ public class ClickAndSpinAction : MonoBehaviour
         Debug.Log("Mouse clicked cauldron");
          
         // store mouse
-        _mouseReference = Input.mousePosition;
+        MouseReference = Input.mousePosition;
     }
 
     void OnMouseUp()
@@ -39,28 +39,28 @@ public class ClickAndSpinAction : MonoBehaviour
     {
         Debug.Log("Mouse click and rotate cauldron");
 
-        _mouseOffset = (Input.mousePosition - _mouseReference);
-        _objectPos = Camera.main.WorldToScreenPoint(transform.position);
+        MouseOffset = (Input.mousePosition - MouseReference);
+        ObjectPos = Camera.main.WorldToScreenPoint(transform.position);
 
         // flip rotation relative to position of game object
         float flipx = 1;
         float flipy = 1;
-        if (Input.mousePosition.y < _objectPos.y)
+        if (Input.mousePosition.y < ObjectPos.y)
         {
             flipx = -1;
         }
-        if (Input.mousePosition.x < _objectPos.x)
+        if (Input.mousePosition.x < ObjectPos.x)
         {
             flipy = -1;
         }
         
         // apply rotation
-        _rotation.z = -(_mouseOffset.x * flipx - _mouseOffset.y * flipy) * _sensitivity;
+        Rotation.z = -(MouseOffset.x * flipx - MouseOffset.y * flipy) * Sensitivity;
         
         // rotate
-        transform.Rotate(_rotation);
+        transform.Rotate(Rotation);
         
         // store mouse
-        _mouseReference = Input.mousePosition;
+        MouseReference = Input.mousePosition;
     }
 }
