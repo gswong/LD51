@@ -21,6 +21,7 @@ public class TimerManager : Singleton<TimerManager>
     public static event Action TimerEventOnEnd;
     public static event Action TimerEventOnStart;
     public float TimeReference;
+    public float TimeStartReference;
     public float TimeThreshold;
 
     // Start is called before the first frame update
@@ -49,6 +50,7 @@ public class TimerManager : Singleton<TimerManager>
     {
         IsRunning = true;
         TimeReference = Time.time;
+        TimeStartReference = TimeReference;
         TimerEventOnStart?.Invoke();
         Debug.Log("Timer start");
     }
@@ -56,5 +58,10 @@ public class TimerManager : Singleton<TimerManager>
     public void StopTimer()
     {
         IsRunning = false;
+    }
+
+    public float GetElapsedTime()
+    {
+        return (Time.time - TimeStartReference);
     }
 }
