@@ -26,9 +26,10 @@ public class TimerManager : Singleton<TimerManager>
     // Start is called before the first frame update
     void Start()
     {
+        SetDontDestroy();
         IsRunning = false;
         TimeThreshold = 10f;
-        SetDontDestroy();
+        GameManager.GameStartEvent += StartTimer;
     }
 
     // Update is called once per frame
@@ -49,6 +50,7 @@ public class TimerManager : Singleton<TimerManager>
         IsRunning = true;
         TimeReference = Time.time;
         TimerEventOnStart?.Invoke();
+        Debug.Log("Timer start");
     }
 
     public void StopTimer()

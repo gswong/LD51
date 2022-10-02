@@ -10,6 +10,7 @@ public class AudioManager : Singleton<AudioManager>
     public string state;
     public AudioSource MyAudioSource;
     public Slider volumeSlider;
+    private Object soundLock;
 
 
     // Start is called before the first frame update
@@ -17,10 +18,12 @@ public class AudioManager : Singleton<AudioManager>
     {
         SetDontDestroy();
         state = "cat";
-        GameObject soundGameObject = new GameObject("Audio");
-        MyAudioSource = soundGameObject.AddComponent<AudioSource>();
+        //GameObject soundGameObject = new GameObject("Audio");
+        //MyAudioSource = soundGameObject.AddComponent<AudioSource>();
+        //MyAudioSource = this.GetComponent<AudioSource>();
         // register the event
         TimerManager.TimerEventOnStart += SwitchAudio;
+        //volumeSlider = this.GetComponent<Slider>();
         //TimerManager.Instance.StartTimer();
         //SwitchAudio();
     }
@@ -49,12 +52,14 @@ public class AudioManager : Singleton<AudioManager>
         {
             state = "witch";
         }
-
+        Debug.Log(state);
         if (state == "witch")
         {
+            Debug.Log("witch theme");
             MyAudioSource.PlayOneShot(witchTheme);
         } else if (state == "cat")
         {
+            Debug.Log("cat theme");
             MyAudioSource.PlayOneShot(catTheme);
         }
     }
