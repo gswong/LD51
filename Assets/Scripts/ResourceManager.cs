@@ -31,6 +31,11 @@ public class ResourceManager : Singleton<ResourceManager>
         SetDontDestroy();
     }
 
+    public void IncreaseScore()
+    {
+        Interlocked.Increment(ref ScoreValue);
+    }
+
     public void IncreaseEye()
     {
         Interlocked.Increment(ref ResourceEyeValue);
