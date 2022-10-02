@@ -20,9 +20,9 @@ public class AudioManager : Singleton<AudioManager>
         GameObject soundGameObject = new GameObject("Audio");
         MyAudioSource = soundGameObject.AddComponent<AudioSource>();
         // register the event
-        TimerManager.TimerEvent += SwitchAudio;
-        TimerManager.Instance.StartTimer();
-        SwitchAudio();
+        TimerManager.TimerEventOnStart += SwitchAudio;
+        //TimerManager.Instance.StartTimer();
+        //SwitchAudio();
     }
 
     void OnEnable()
@@ -62,9 +62,5 @@ public class AudioManager : Singleton<AudioManager>
     // Update is called once per frame
     void Update()
     {
-        if (!TimerManager.Instance.IsRunning)
-        {
-            TimerManager.Instance.StartTimer();
-        }
     }
 }

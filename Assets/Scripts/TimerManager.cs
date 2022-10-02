@@ -18,7 +18,8 @@ using UnityEngine;
 public class TimerManager : Singleton<TimerManager>
 {
     public bool IsRunning;
-    public static event Action TimerEvent;
+    public static event Action TimerEventOnEnd;
+    public static event Action TimerEventOnStart;
     public float TimeReference;
     public float TimeThreshold;
 
@@ -34,9 +35,10 @@ public class TimerManager : Singleton<TimerManager>
     void Update()
     {
         float timeDiff = Time.time - TimeReference;
-        if (timeDiff > TimeThreshold)
+        if (timeDiff > TimeThreshold && IsRunning)
         {
-            TimerEvent?.Invoke();
+            TimerEventOnEnd?.Invoke();
+            TimerEventOnStart?.Invoke();
             Debug.Log("Timer expired");
             TimeReference = Time.time;
         }
@@ -46,6 +48,7 @@ public class TimerManager : Singleton<TimerManager>
     {
         IsRunning = true;
         TimeReference = Time.time;
+        TimerEventOnStart?.Invoke();
     }
 
     public void StopTimer()
