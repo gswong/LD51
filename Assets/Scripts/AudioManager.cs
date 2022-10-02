@@ -26,6 +26,7 @@ public class AudioManager : Singleton<AudioManager>
         //volumeSlider = this.GetComponent<Slider>();
         //TimerManager.Instance.StartTimer();
         //SwitchAudio();
+        ChangeVolume(volumeSlider.value);
     }
 
     void OnEnable()
