@@ -21,6 +21,7 @@ public class ResourceManager : Singleton<ResourceManager>
         Interlocked.Exchange(ref ResourceEyeValue, 0);
         Interlocked.Exchange(ref ResourceMushroomValue, 0);
         Interlocked.Exchange(ref ResourceRootValue, 0);
+        SetDontDestroy();
     }
 
     public void IncreaseEye()

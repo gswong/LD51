@@ -10,7 +10,7 @@ public class ResourceDisplay : MonoBehaviour
     {
         Canvas canvas = this.GetComponent<Canvas>();
         Text t = (Text)canvas.GetComponent<Text>();
-        Debug.Log(t.text);
+        //Debug.Log(t.text);
         
     }
 
