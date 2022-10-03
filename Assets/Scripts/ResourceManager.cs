@@ -26,10 +26,14 @@ public class ResourceManager : Singleton<ResourceManager>
     public TMP_Text PotionText;
     public Canvas ResourceCanvas;
 
+    public int potionsToWin;
+
     public enum ResourceType { Eye, Mushroom, Root }
 
     void Start()
     {
+        potionsToWin = 15;
+
         EyeText = GameObject.FindGameObjectWithTag("EyeText").GetComponent<TMP_Text>();
         MushroomText = GameObject.FindGameObjectWithTag("MushroomText").GetComponent<TMP_Text>();
         RootText = GameObject.FindGameObjectWithTag("RootText").GetComponent<TMP_Text>();

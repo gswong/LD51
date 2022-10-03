@@ -17,7 +17,7 @@ public class EndScore : MonoBehaviour
 
         TimerManager.Instance.StopTimer();
         var duration = Time.time - TimerManager.Instance.StartTime;
-        finalScore.text = "30 Potions made in " + Mathf.Round(duration) + "s";
+        finalScore.text = ResourceManager.Instance.potionsToWin + " Potions made in " + Mathf.Round(duration) + "s";
         finalScore.gameObject.SetActive(true);
     }
 

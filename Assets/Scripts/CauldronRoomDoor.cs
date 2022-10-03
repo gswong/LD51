@@ -39,7 +39,7 @@ public class CauldronRoomDoor : MonoBehaviour
         //Move the Object/Panel
         TutorialTooltip.transform.position = mousePos;
 
-        if (ResourceManager.Instance.ScoreValue == 30)
+        if (ResourceManager.Instance.ScoreValue == ResourceManager.Instance.potionsToWin)
         {
             SceneManager.LoadScene("EndingScreen");
         }
