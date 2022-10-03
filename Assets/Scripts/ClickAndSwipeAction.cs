@@ -83,6 +83,7 @@ public class ClickAndSwipeAction : MonoBehaviour
         {
             // Increment resource
             Debug.Log("Player gathered root");
+            AudioManager.Instance.RootSound();
             ResourceManager.Instance.IncreaseRoot();
         }
 

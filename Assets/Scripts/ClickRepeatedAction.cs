@@ -60,6 +60,7 @@ public class ClickRepeatedAction : MonoBehaviour
     void OnMouseUp()
     {
         Debug.Log("Player released Eye");
+        AudioManager.Instance.EyeballSound();
         ResourceManager.Instance.IncreaseEye();
     }
 }

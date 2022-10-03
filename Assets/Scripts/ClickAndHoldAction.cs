@@ -46,6 +46,7 @@ public class ClickAndHoldAction : MonoBehaviour
         float timeDifference = Time.time - StartGatherTime;
         if(IsGathering && timeDifference > GatherThreshold)
         {
+            AudioManager.Instance.MushroomSound();
             Debug.Log("Player gathered mushroom");
             ResourceManager.Instance.IncreaseMushroom();
             StartGatherTime = Time.time;

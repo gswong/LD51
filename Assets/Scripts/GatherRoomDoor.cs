@@ -55,6 +55,7 @@ public class GatherRoomDoor : MonoBehaviour
 
     void OnMouseUp()
     {
+        AudioManager.Instance.DoorSound();
         SceneManager.LoadScene("CauldronRoom");
     }
 }
