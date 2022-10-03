@@ -594,6 +594,10 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2595342945611038712, guid: fb2cecbf8cb23294c9b8122163f995f6, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 2655418584244384686, guid: fb2cecbf8cb23294c9b8122163f995f6, type: 3}
       propertyPath: m_RootOrder
       value: 4

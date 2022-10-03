@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - singleton
+  - ResourceCanvas
+  - EyeText
+  - RootText
+  - MushroomText
+  - EyeImage
+  - MushroomImage
+  - RootImage
   layers:
   - Default
   - TransparentFX
