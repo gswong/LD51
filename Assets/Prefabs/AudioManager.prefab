@@ -58,7 +58,7 @@ MonoBehaviour:
   mushroomSound: {fileID: 8300000, guid: 2f68b01ea93363d42a8662d1fedacfeb, type: 3}
   rootSound: {fileID: 8300000, guid: 1ad13ee62e68d0e4b9a570c3a7c9c7a8, type: 3}
   meowSound: {fileID: 8300000, guid: 951d7803d530bbd47ada9cea050e9de7, type: 3}
-  swipeSound: {fileID: 0}
+  swipeSound: {fileID: 8300000, guid: 662122921f88b2041b99a5b6d8160da6, type: 3}
   state: 
   MyAudioSource: {fileID: 1814569204097947711}
   volumeSlider: {fileID: 1962220522634825240}
