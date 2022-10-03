@@ -11,6 +11,7 @@ public class AudioManager : Singleton<AudioManager>
     public AudioClip eyeballSound;
     public AudioClip mushroomSound;
     public AudioClip rootSound;
+    public AudioClip meowSound;
     public string state;
     public AudioSource MyAudioSource;
     public Slider volumeSlider;
@@ -51,6 +52,11 @@ public class AudioManager : Singleton<AudioManager>
     public void MushroomSound()
     {
         MyAudioSource.PlayOneShot(mushroomSound);
+    }
+
+    public void MeowSound()
+    {
+        MyAudioSource.PlayOneShot(meowSound);
     }
 
     void OnEnable()
