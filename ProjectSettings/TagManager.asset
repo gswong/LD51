@@ -13,6 +13,7 @@ TagManager:
   - MushroomImage
   - RootImage
   - PotionText
+  - ResourceCat
   layers:
   - Default
   - TransparentFX
