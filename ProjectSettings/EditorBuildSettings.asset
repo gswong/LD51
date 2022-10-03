@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CauldronRoom.unity
     guid: 56b09c3e005118a489ef66df945c6ced
+  - enabled: 1
+    path: Assets/Scenes/EndingScreen.unity
+    guid: a96fb53ac842fe441b9b3ff843f7e7c6
   m_configObjects: {}

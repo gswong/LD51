@@ -23,6 +23,7 @@ public class TimerManager : Singleton<TimerManager>
     public float TimeReference;
     public float TimeStartReference;
     public float TimeThreshold;
+    public float StartTime;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,7 @@ public class TimerManager : Singleton<TimerManager>
         IsRunning = false;
         TimeThreshold = 10f;
         GameManager.GameStartEvent += StartTimer;
+        StartTime = Time.time;
     }
 
     // Update is called once per frame

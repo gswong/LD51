@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -10,6 +11,9 @@ public class GameManager : Singleton<GameManager>
     public TimerManager Timer;
     public ResourceManager Resources;
     public static event Action GameStartEvent;
+    public Text finalScore;
+    public bool PlayerWon;
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +24,7 @@ public class GameManager : Singleton<GameManager>
         Audio = AudioManager.Instance; 
         Timer = TimerManager.Instance;
         Resources = ResourceManager.Instance;
+        finalScore.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
