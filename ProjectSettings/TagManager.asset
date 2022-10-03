@@ -12,6 +12,7 @@ TagManager:
   - EyeImage
   - MushroomImage
   - RootImage
+  - PotionText
   layers:
   - Default
   - TransparentFX

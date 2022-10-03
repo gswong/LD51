@@ -23,6 +23,7 @@ public class ResourceManager : Singleton<ResourceManager>
     public TMP_Text EyeText;
     public TMP_Text MushroomText;
     public TMP_Text RootText;
+    public TMP_Text PotionText;
     public Canvas ResourceCanvas;
 
     public enum ResourceType { Eye, Mushroom, Root }
@@ -32,6 +33,7 @@ public class ResourceManager : Singleton<ResourceManager>
         EyeText = GameObject.FindGameObjectWithTag("EyeText").GetComponent<TMP_Text>();
         MushroomText = GameObject.FindGameObjectWithTag("MushroomText").GetComponent<TMP_Text>();
         RootText = GameObject.FindGameObjectWithTag("RootText").GetComponent<TMP_Text>();
+        PotionText = GameObject.FindGameObjectWithTag("PotionText").GetComponent<TMP_Text>();
         Interlocked.Exchange(ref ResourceEyeValue, 0);
         Interlocked.Exchange(ref ResourceMushroomValue, 0);
         Interlocked.Exchange(ref ResourceRootValue, 0);
@@ -199,6 +201,7 @@ public class ResourceManager : Singleton<ResourceManager>
             EyeText.text = ResourceEyeValue.ToString(); 
             MushroomText.text = ResourceMushroomValue.ToString(); 
             RootText.text = ResourceRootValue.ToString(); 
+            PotionText.text = ScoreValue.ToString(); 
         }
     }
 
