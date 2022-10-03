@@ -26,6 +26,7 @@ public class ClickAndSpinAction : MonoBehaviour
     public Image background;
     public GameObject TutorialTooltip;
     public Canvas parentCanvas;
+    public GameObject WitchStir;
     [SerializeField] float xOffset;
     [SerializeField] float yOffset;
 
@@ -49,6 +50,7 @@ public class ClickAndSpinAction : MonoBehaviour
         background.gameObject.SetActive(false);
         xOffset = 2;
         yOffset = -0.5f;
+        WitchStir.GetComponentInChildren<Animator>().StartPlayback();
     }
 
     // Update is called once per frame
@@ -74,6 +76,8 @@ public class ClickAndSpinAction : MonoBehaviour
 
         if (IsStirring)
         {
+            WitchStir.GetComponentInChildren<Animator>().StopPlayback();
+
             // stirring direction change
             if (!(PrevStirringDirection > _StirringThresholdRotation && averageRotation > _StirringThresholdRotation) &&
                 !(PrevStirringDirection < -_StirringThresholdRotation && averageRotation < -_StirringThresholdRotation))
@@ -106,6 +110,7 @@ public class ClickAndSpinAction : MonoBehaviour
         }
         else
         {
+            WitchStir.GetComponentInChildren<Animator>().StartPlayback();
             if (Mathf.Abs(averageRotation) > _StirringThresholdRotation)
             {
                 Debug.Log("Start stirring");
@@ -167,7 +172,7 @@ public class ClickAndSpinAction : MonoBehaviour
         Rotation.z = -(MouseOffset.x * flipx - MouseOffset.y * flipy) * Sensitivity;
 
         // rotate
-        transform.Rotate(Rotation);
+        //transform.Rotate(Rotation);
 
         // store mouse
         MouseReference = Input.mousePosition;

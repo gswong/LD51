@@ -53,6 +53,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   catTheme: {fileID: 8300000, guid: a91c93aa62acabc44a2184aa0bb5f7ad, type: 3}
   witchTheme: {fileID: 8300000, guid: 915d7dbc9a3274b4fa98efaa3728d3a8, type: 3}
+  doorSound: {fileID: 8300000, guid: 892e40adf4973af45bf4a7109defc6c0, type: 3}
+  eyeballSound: {fileID: 8300000, guid: c2c19130cbc95f54aa20a9e5f6454d98, type: 3}
+  mushroomSound: {fileID: 8300000, guid: 2f68b01ea93363d42a8662d1fedacfeb, type: 3}
+  rootSound: {fileID: 8300000, guid: 1ad13ee62e68d0e4b9a570c3a7c9c7a8, type: 3}
+  meowSound: {fileID: 8300000, guid: 951d7803d530bbd47ada9cea050e9de7, type: 3}
+  swipeSound: {fileID: 0}
   state: 
   MyAudioSource: {fileID: 1814569204097947711}
   volumeSlider: {fileID: 1962220522634825240}
