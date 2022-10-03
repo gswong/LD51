@@ -52,12 +52,14 @@ public class Cat : Singleton<Cat>
     public void SwipeResource()
     {
         // Play Swipe Sound
+        AudioManager.Instance.SwipeSound();
         ResourceManager.Instance.DecreaseRandomResource();
     }
 
     public void SwipeCauldron()
     {
         // Play Attack Sound
+        AudioManager.Instance.MeowSound();
         ResourceManager.Instance.AttackCauldron();
     }
 }

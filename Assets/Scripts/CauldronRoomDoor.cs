@@ -55,6 +55,7 @@ public class CauldronRoomDoor : MonoBehaviour
 
     void OnMouseUp()
     {
+        AudioManager.Instance.DoorSound();
         SceneManager.LoadScene("ResourceRoom");
     }
 }

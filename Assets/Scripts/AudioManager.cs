@@ -7,6 +7,12 @@ public class AudioManager : Singleton<AudioManager>
 {
     public AudioClip catTheme;
     public AudioClip witchTheme;
+    public AudioClip doorSound;
+    public AudioClip eyeballSound;
+    public AudioClip mushroomSound;
+    public AudioClip rootSound;
+    public AudioClip meowSound;
+    public AudioClip swipeSound;
     public string state;
     public AudioSource MyAudioSource;
     public Slider volumeSlider;
@@ -27,6 +33,36 @@ public class AudioManager : Singleton<AudioManager>
         //TimerManager.Instance.StartTimer();
         //SwitchAudio();
         ChangeVolume(volumeSlider.value);
+    }
+
+    public void DoorSound()
+    {
+        MyAudioSource.PlayOneShot(doorSound);
+    }
+
+    public void EyeballSound()
+    {
+        MyAudioSource.PlayOneShot(eyeballSound);
+    }
+
+    public void RootSound()
+    {
+        MyAudioSource.PlayOneShot(rootSound);
+    }
+
+    public void MushroomSound()
+    {
+        MyAudioSource.PlayOneShot(mushroomSound);
+    }
+
+    public void MeowSound()
+    {
+        MyAudioSource.PlayOneShot(meowSound);
+    }
+
+    public void SwipeSound()
+    {
+        MyAudioSource.PlayOneShot(swipeSound);
     }
 
     void OnEnable()
