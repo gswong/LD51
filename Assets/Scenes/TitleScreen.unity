@@ -966,6 +966,10 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 153768005773168021, guid: d2f905691a098444599ff6c8502e0173, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 295202803390794359, guid: d2f905691a098444599ff6c8502e0173, type: 3}
       propertyPath: m_Name
       value: AudioManager

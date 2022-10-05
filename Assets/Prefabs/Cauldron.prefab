@@ -129,6 +129,7 @@ MonoBehaviour:
   background: {fileID: 0}
   TutorialTooltip: {fileID: 0}
   parentCanvas: {fileID: 0}
+  WitchStir: {fileID: 0}
   xOffset: 0
   yOffset: 0
 --- !u!1001 &2878448809005740691
@@ -164,7 +165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4240000847982327768, guid: 162ae3c1b6e54a746bc380b946113953, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4240000847982327768, guid: 162ae3c1b6e54a746bc380b946113953, type: 3}
       propertyPath: m_LocalRotation.w

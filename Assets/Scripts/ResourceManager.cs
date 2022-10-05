@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 [RequireComponent(typeof(ResourceManager))]
@@ -200,6 +201,10 @@ public class ResourceManager : Singleton<ResourceManager>
     void Update()
     {
         // update ui
+        if (SceneManager.GetActiveScene().name == "EndingScreen")
+        {
+            ResourceCanvas.enabled = false;
+        }
         if (ResourceCanvas.enabled)
         {
             EyeText.text = ResourceEyeValue.ToString(); 

@@ -120,11 +120,11 @@ TextureImporter:
       name: witch-spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5460
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 236
+        y: 5462
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -141,11 +141,11 @@ TextureImporter:
       name: witch-spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1670
-        y: 5460
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 1845
+        y: 5462
+        width: 1206
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -162,11 +162,11 @@ TextureImporter:
       name: witch-spritesheet_2
       rect:
         serializedVersion: 2
-        x: 3340
-        y: 5460
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 3456
+        y: 5462
+        width: 1206
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -183,11 +183,11 @@ TextureImporter:
       name: witch-spritesheet_3
       rect:
         serializedVersion: 2
-        x: 5010
-        y: 5460
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 5067
+        y: 5462
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -204,11 +204,11 @@ TextureImporter:
       name: witch-spritesheet_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4550
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 236
+        y: 4552
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -225,11 +225,11 @@ TextureImporter:
       name: witch-spritesheet_5
       rect:
         serializedVersion: 2
-        x: 1670
-        y: 4550
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 1845
+        y: 4552
+        width: 1307
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -246,11 +246,11 @@ TextureImporter:
       name: witch-spritesheet_6
       rect:
         serializedVersion: 2
-        x: 3340
-        y: 4550
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 3456
+        y: 4552
+        width: 1304
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -267,11 +267,11 @@ TextureImporter:
       name: witch-spritesheet_7
       rect:
         serializedVersion: 2
-        x: 5010
-        y: 4550
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 5067
+        y: 4552
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -288,11 +288,11 @@ TextureImporter:
       name: witch-spritesheet_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3640
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 236
+        y: 3642
+        width: 1374
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -309,11 +309,11 @@ TextureImporter:
       name: witch-spritesheet_9
       rect:
         serializedVersion: 2
-        x: 1670
-        y: 3640
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 1845
+        y: 3642
+        width: 1374
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -330,11 +330,11 @@ TextureImporter:
       name: witch-spritesheet_10
       rect:
         serializedVersion: 2
-        x: 3340
-        y: 3640
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 3456
+        y: 3642
+        width: 1373
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -351,11 +351,11 @@ TextureImporter:
       name: witch-spritesheet_11
       rect:
         serializedVersion: 2
-        x: 5010
-        y: 3640
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 5067
+        y: 3642
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -372,11 +372,11 @@ TextureImporter:
       name: witch-spritesheet_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2730
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 236
+        y: 2732
+        width: 1374
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -393,11 +393,11 @@ TextureImporter:
       name: witch-spritesheet_13
       rect:
         serializedVersion: 2
-        x: 1670
-        y: 2730
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 1845
+        y: 2732
+        width: 1374
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -414,11 +414,11 @@ TextureImporter:
       name: witch-spritesheet_14
       rect:
         serializedVersion: 2
-        x: 3340
-        y: 2730
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 3456
+        y: 2732
+        width: 1373
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -435,11 +435,11 @@ TextureImporter:
       name: witch-spritesheet_15
       rect:
         serializedVersion: 2
-        x: 5010
-        y: 2730
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 5067
+        y: 2732
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -456,11 +456,11 @@ TextureImporter:
       name: witch-spritesheet_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1820
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 236
+        y: 1822
+        width: 1289
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -477,11 +477,11 @@ TextureImporter:
       name: witch-spritesheet_17
       rect:
         serializedVersion: 2
-        x: 1670
-        y: 1820
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 1845
+        y: 1822
+        width: 1291
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -498,11 +498,11 @@ TextureImporter:
       name: witch-spritesheet_18
       rect:
         serializedVersion: 2
-        x: 3340
-        y: 1820
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 3456
+        y: 1822
+        width: 1288
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -519,11 +519,11 @@ TextureImporter:
       name: witch-spritesheet_19
       rect:
         serializedVersion: 2
-        x: 5010
-        y: 1820
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 5067
+        y: 1822
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -540,11 +540,11 @@ TextureImporter:
       name: witch-spritesheet_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 910
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 236
+        y: 912
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -561,11 +561,11 @@ TextureImporter:
       name: witch-spritesheet_21
       rect:
         serializedVersion: 2
-        x: 1670
-        y: 910
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 1845
+        y: 912
+        width: 1206
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -582,11 +582,11 @@ TextureImporter:
       name: witch-spritesheet_22
       rect:
         serializedVersion: 2
-        x: 3340
-        y: 910
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 3456
+        y: 912
+        width: 1206
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -603,11 +603,11 @@ TextureImporter:
       name: witch-spritesheet_23
       rect:
         serializedVersion: 2
-        x: 5010
-        y: 910
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 5067
+        y: 912
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -624,11 +624,11 @@ TextureImporter:
       name: witch-spritesheet_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 236
+        y: 2
+        width: 1204
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -645,11 +645,11 @@ TextureImporter:
       name: witch-spritesheet_25
       rect:
         serializedVersion: 2
-        x: 1670
-        y: 0
-        width: 1670
-        height: 910
-      alignment: 0
+        x: 1845
+        y: 2
+        width: 1249
+        height: 906
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -658,6 +658,132 @@ TextureImporter:
       bones: []
       spriteID: 402436325d382ab42ba17834757b58e1
       internalID: -238645500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 6445
+        y: 6336
+        width: 30
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274a1322477595e48b95fa586bb26217
+      internalID: 1989396784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 6483
+        y: 6333
+        width: 32
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d6901f51571d649bbfa0ec5c10bb87
+      internalID: 1263108434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 6525
+        y: 6333
+        width: 32
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4080ef51656e46b4a91b67f2cfe28322
+      internalID: 52634652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 6565
+        y: 6333
+        width: 29
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63296905489aa474eba94ffd68898a1f
+      internalID: 435062874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 6603
+        y: 6333
+        width: 33
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6923df924d9fdd34ea65d7f5b9ae28dc
+      internalID: -1785693977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 6646
+        y: 6336
+        width: 29
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be118fdc6e1ce3a4da23485611d68cf8
+      internalID: 1315531241
       vertices: []
       indices: 
       edges: []
@@ -673,6 +799,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      witch-spritesheet_30: -1785693977
       witch-spritesheet_2: 159121808
       witch-spritesheet_18: 195977615
       witch-spritesheet_7: 1284678634
@@ -684,18 +811,23 @@ TextureImporter:
       witch-spritesheet_5: 1647188318
       witch-spritesheet_10: -1488096914
       witch-spritesheet_12: -1237874722
+      witch-spritesheet_29: 435062874
       witch-spritesheet_19: -1701143962
       witch-spritesheet_15: -1981083183
+      witch-spritesheet_26: 1989396784
       witch-spritesheet_11: -878420985
       witch-spritesheet_9: 77268919
       witch-spritesheet_13: -340400877
+      witch-spritesheet_28: 52634652
       witch-spritesheet_20: 5197924
       witch-spritesheet_1: 238281702
       witch-spritesheet_6: -2082710890
+      witch-spritesheet_31: 1315531241
       witch-spritesheet_17: -1201858616
       witch-spritesheet_22: -1370222965
       witch-spritesheet_21: 1525762841
       witch-spritesheet_25: -238645500
+      witch-spritesheet_27: 1263108434
       witch-spritesheet_23: 1276810449
       witch-spritesheet_24: -277570807
       witch-spritesheet_16: -1993110343

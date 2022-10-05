@@ -47,6 +47,15 @@ public class Cat : Singleton<Cat>
             pos.z = 3f;
             ResourceCat.transform.position = pos;
         }
+        GameObject CauldronCat = GameObject.FindGameObjectWithTag("CauldronCat");
+        if (CatEnabled && currentScene.name == "CauldronRoom")
+        {
+            CauldronCat.GetComponentInChildren<Renderer>().enabled = true;
+        }
+        else if (currentScene.name == "CauldronRoom")
+        {
+            CauldronCat.GetComponentInChildren<Renderer>().enabled = false;
+        }
     }
 
     public void SwipeResource()

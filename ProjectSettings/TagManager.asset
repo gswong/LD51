@@ -15,6 +15,7 @@ TagManager:
   - PotionText
   - ResourceCat
   - WitchStir
+  - CauldronCat
   layers:
   - Default
   - TransparentFX
